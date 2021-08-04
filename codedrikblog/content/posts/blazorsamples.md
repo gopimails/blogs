@@ -1,5 +1,5 @@
 ---
-title: "Blazorwebassembly"
+title: "Blazor Samples"
 date: 2021-08-05T00:16:14+02:00
 ---
 # Blazor Sample Attempts
