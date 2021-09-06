@@ -10,11 +10,14 @@
    -  Create new post
        - `hugo new posts/vernemq_mosquitto_bridge.md`
    - Update the md file with your actual content.
+   - Check if everything is good
+       - `hugo server`
+           - Will build and give an url to check.
    - publish
        - `hugo -t anatole`
-       - git add .
-       - git commit -m vernemqtomosquitto
-       - git push origin main
+       - `git add .`
+       - `git commit -m vernemqtomosquitto`
+       - `git push origin main`
 
 # blogs
 
