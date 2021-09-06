@@ -24,4 +24,6 @@
 - Whenever you clone, or take latest, should be followed up with below two commands.
     - git submodule init
     - git submodule update
+    - sudo git submodule update --init --recursive
+    - sudo git submodule update --recursive
 - Reason : themes\anatole is a submodule(not a clone add) and should be synced.
