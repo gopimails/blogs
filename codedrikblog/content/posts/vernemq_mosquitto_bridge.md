@@ -54,10 +54,9 @@ In this exercise, we shall try to setup an mqttbridge that pulls data from verne
 ## Build
 - Go to docker file location of mosquitto
 - `docker build -t mosmq -f Dockerfile .`
-![docker build mosquitto](images/dockerbuild-mosquitto.png)
 - Go to docker file location of vernemq
 - `docker build -t vernemq -f Dockerfile .`
-![docker build verne](images/dockerbuild-vernemq.png)
+
 ## Run
 - vernemq
     - `docker run --rm -it  -p 1884:1883/tcp vernemq:latest`
@@ -65,8 +64,6 @@ In this exercise, we shall try to setup an mqttbridge that pulls data from verne
     - `docker run --rm -it -p 1883:1883/tcp mosmq:latest`
 ## Verify
 -  Using mqtt explorer, we can connect to vernemq. Once connected publish a message
-![docker build mosquitto](images/publishtoverne.png)
 - You may verify the data by pulling mosquito logs
-![docker build mosquitto](images/receiveatmosquitto.png)
 
 
