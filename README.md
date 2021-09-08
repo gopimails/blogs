@@ -6,6 +6,7 @@
         - https://github.com/lxndrblz/anatole
     - add theme to config.toml
         - https://www.youtube.com/watch?v=LIFvgrRxdt4&t=302s
+    - git submodule add -f -b main https://github.com/gopimails/gopimails.github.io.git public
 - Repeat
    -  Create new post
        - `hugo new posts/vernemq_mosquitto_bridge.md`
