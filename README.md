@@ -19,6 +19,7 @@
        - `git add .`
        - `git commit -m vernemqtomosquitto`
        - `git push origin main`
+           - if not working, try this `git push origin HEAD:main`
 
 # blogs
 
