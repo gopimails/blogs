@@ -1,3 +1,7 @@
 [submodule "codedrikblog/themes/anatole"]
 	path = codedrikblog/themes/anatole
 	url = https://github.com/lxndrblz/anatole.git
+[submodule "codedrikblog/public"]
+	path = codedrikblog/public
+	url = https://github.com/gopimails/gopimails.github.io.git
+	branch = main
